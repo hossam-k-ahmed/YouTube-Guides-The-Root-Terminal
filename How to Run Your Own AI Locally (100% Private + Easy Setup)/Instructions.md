@@ -121,4 +121,32 @@ For **Fedora**, we will use **firewalld**, the default and recommended firewall 
 
 ### 7. Enable UFW.
     sudo ufw enable
+    sudo systemctl enable ufw
+    sudo ufw status verbose
+
+
+#  <img width="29" height="33" alt="debian" src="https://github.com/user-attachments/assets/1665750e-83dc-4dc2-af42-169cd577a9dc" /> Arch Linux (UFW)
+### 1. Update, Upgrade, and Remove Unused Packages.
+
+    sudo apt update && sudo apt dist-upgrade -y && sudo apt autoremove -y
+
+### 2. Install UFW (if missing).
+    sudo apt install ufw -y
+
+### 3. Set Secure Defaults.
+    sudo ufw default allow outgoing
+    sudo ufw default deny incoming
+
+### 4. Allow SSH (with rate limiting).
+    sudo ufw limit 22/tcp
+
+### 5. Allow Ollama API (11434).
+    sudo ufw allow 11434/tcp
+
+### 6. Allow Open WebUI Port (3000).
+    sudo ufw allow 3000/tcp
+
+### 7. Enable UFW.
+    sudo ufw enable
+    sudo systemctl enable ufw
     sudo ufw status verbose
