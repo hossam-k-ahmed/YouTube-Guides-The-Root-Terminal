@@ -36,8 +36,6 @@ Ollama allows you to run LLMs locally with a simple interface, and Open WebUI pr
 
 ## <img width="29" height="33" alt="linux" src="https://github.com/user-attachments/assets/014fd61d-a933-4112-90fa-ea30141fcb44" /> Linux Users & Home Servers (Proxmox VE)
 
-This guide works on **any modern Linux distribution**.
-
 Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fedora** and **Arch Linux**.
 
 [**Please proceed to the Firewall Configuration**](https://github.com/hossam-k-ahmed/YouTube-Guides-The-Root-Terminal/blob/main/How%20to%20Host%20Your%20AI%20Locally/Instructions.md#firewall-configuration)  
