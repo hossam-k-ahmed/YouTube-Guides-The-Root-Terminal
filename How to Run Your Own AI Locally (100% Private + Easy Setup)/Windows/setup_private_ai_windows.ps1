@@ -12,3 +12,5 @@ Write-Host "====================================================================
 Write-Host "                     Run Your Own Local AI Setup — 100% Private • No Cloud"
 Write-Host "========================================================================================="
 Write-Host ""
+
+Read-Host -Prompt "Press Enter to exit..."
