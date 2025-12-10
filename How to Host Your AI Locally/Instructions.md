@@ -45,7 +45,7 @@ Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fed
 
 ---
 
-## <img width="29" height="33" alt="macos" src="https://github.com/user-attachments/assets/014fd61d-a933-4112-90fa-ea30141fcb44" /> macOS Users
+## <img width="29" height="33" alt="Apple" src="https://github.com/user-attachments/assets/572f0449-ff65-40f0-af24-5ce1f5df805b" /> macOS Users
 
 Ensure you have **Homebrew** installed for easy dependency management.
 
