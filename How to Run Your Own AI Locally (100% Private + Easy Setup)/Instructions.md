@@ -125,13 +125,13 @@ For **Fedora**, we will use **firewalld**, the default and recommended firewall 
     sudo ufw status verbose
 
 
-#  <img width="29" height="33" alt="debian" src="https://github.com/user-attachments/assets/1665750e-83dc-4dc2-af42-169cd577a9dc" /> Arch Linux (UFW)
-### 1. Update, Upgrade, and Remove Unused Packages.
+# <img width="29" height="33" alt="arch" src="https://github.com/user-attachments/assets/ccaf0a0c-5c3d-4c6b-a5fa-40d8609490cd" /> Arch Linux (UFW)
+### 1. 1. Update The System.
 
-    sudo apt update && sudo apt dist-upgrade -y && sudo apt autoremove -y
+    sudo pacman -Syu
 
 ### 2. Install UFW (if missing).
-    sudo apt install ufw -y
+    sudo pacman -S ufw
 
 ### 3. Set Secure Defaults.
     sudo ufw default allow outgoing
