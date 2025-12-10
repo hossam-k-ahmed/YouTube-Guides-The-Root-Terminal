@@ -41,6 +41,8 @@ Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fed
 ### ⚠️ Make sure you have **Docker installed** before proceeding.  
 Follow the official Docker installation guide for your distribution: [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
+Once that is taken care of, you’re ready to continue.
+
 [**Please proceed to the Firewall Configuration**](https://github.com/hossam-k-ahmed/YouTube-Guides-The-Root-Terminal/blob/main/How%20to%20Host%20Your%20AI%20Locally/Instructions.md#firewall-configuration)  
 
 > **Tip:** Make sure your system is fully updated to avoid dependency issues.
@@ -54,8 +56,9 @@ Requires **macOS 14 Sonoma or later**.
 
 Ollama requires some dependencies that are easily managed with **Homebrew**.  
 Follow the official guide to install Homebrew: [https://brew.sh/](https://brew.sh/)
+You can use Homebrew to manage dependencies like `curl`, `wget`, and `docker`.
 
-Once installed, you can use Homebrew to manage dependencies like `curl`, `wget`, and `docker`.
+Once that is taken care of, you’re ready to continue.
 
 [**Please proceed to Installing Ollama on macOS**](https://github.com/hossam-k-ahmed/YouTube-Guides-The-Root-Terminal/blob/main/How%20to%20Host%20Your%20AI%20Locally/Instructions.md#install-ollama-on-macos)
 
