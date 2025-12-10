@@ -207,7 +207,7 @@ You should see a confirmation or API status page, indicating the Ollama API is r
 
 # Install Ollama on macOS:
 
-You can install Ollama either via the official **.dmg installer**. **( Requires macOS 14 Sonoma or later )** 
+You can install Ollama either via the official .dmg installer. **( Requires macOS 14 Sonoma or later )** 
 
 ### Download and Install via .dmg
 
@@ -217,4 +217,16 @@ You can install Ollama either via the official **.dmg installer**. **( Requires 
 4. Launch Ollama from Applications.
 
 > **⚠️ Important:** Always download software from the official website to ensure safety.
+
+### Verify the Installation
+After installation, check that Ollama is correctly installed, You should see the installed version printed in your terminal.
+    
+    ollama --version
+
+### Verify the API in the Browser
+On your local machine open the browser and go to:
+    
+    http://localhost:11434
+    
+You should see a confirmation or API status page, indicating the Ollama API is running correctly.
 
