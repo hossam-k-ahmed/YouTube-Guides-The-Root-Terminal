@@ -13,7 +13,8 @@ Whether you’re on **Windows** or **Linux**, this guide will walk you **step by
 - **💰 Save costs** by running AI entirely on your own hardware.  
 
 **Hardware Recommendations:**
-  **Running AI locally gives you full control and avoids cloud limitations or fees.**
+
+**Running AI locally gives you full control and avoids cloud limitations or fees.**
   
 > **(CPU):** A modern multi-core CPU with at least 4 cores is recommended. Higher clock speeds and multiple cores improve AI performance, especially when running models without a GPU.
   
