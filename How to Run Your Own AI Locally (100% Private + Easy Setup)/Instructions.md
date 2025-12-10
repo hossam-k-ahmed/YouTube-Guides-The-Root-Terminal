@@ -156,21 +156,21 @@ For **Fedora**, we will use **firewalld**, the default and recommended firewall 
 ### 1. Update The System.
     sudo dnf upgrade --refresh -y
 
-### 2. Enable firewalld.
-    sudo dnf install firewalld -y
-    sudo systemctl enable --now firewalld
-
-### 3. Allow SSH.
+### 2. Allow SSH.
     sudo firewall-cmd --permanent --add-service=ssh
 
-### 4. Allow Ollama API Port (11434).
+### 3. Allow Ollama API Port (11434).
     sudo firewall-cmd --permanent --add-port=11434/tcp
 
-### 5. Allow Open WebUI Port (3000).
+### 4. Allow Open WebUI Port (3000).
     sudo firewall-cmd --permanent --add-port=3000/tcp
 
-### 6. Apply The Changes.
+### 5. Apply The Changes.
     sudo firewall-cmd --reload
     sudo firewall-cmd --list-all
+
+### 6. Enable firewalld.
+    sudo dnf install firewalld -y
+    sudo systemctl enable --now firewalld
 
 
