@@ -41,6 +41,7 @@ Ollama allows you to run LLMs locally with a simple interface, and Open WebUI pr
 ## <img width="29" height="33" alt="linux" src="https://github.com/user-attachments/assets/014fd61d-a933-4112-90fa-ea30141fcb44" /> For Linux Users & Home Servers (Proxmox VE)
 
 This guide works on **any modern Linux distribution**.
+
 Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fedora** and **Arch Linux**.
 
 **Please proceed to the next section:**  
@@ -65,7 +66,7 @@ This will:
 - Enable WSL on your Windows system.  
 - Install the latest WSL 2 version.
 
-Once installation completes, **restart your computer**.  
+**⚠️ Important:** Once installation completes, **restart your computer**.  
 After reboot, you can check available Linux distributions by opening the Command Prompt (cmd) and running:
 
 
@@ -86,7 +87,7 @@ To install your preferred distribution (e.g., Debian, Ubuntu), run:
 <img width="1916" height="965" alt="Screenshot From 2025-12-10 08-42-41" src="https://github.com/user-attachments/assets/a8bd3ff3-7bc9-4b18-b0ed-16ae40de993a" />
 
 
-⚠️ Important: After this installation, restart your computer again.
+**⚠️ Important:** After this installation, restart your computer again.
 Once rebooted, launch your Linux distro from the Start Menu to continue setup.
 
 
