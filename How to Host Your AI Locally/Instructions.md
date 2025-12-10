@@ -87,7 +87,7 @@ Once rebooted, launch your Linux distro from the Start Menu to continue setup.
 
 
 ---
-## 1. Firewall Configuration:
+# Firewall Configuration:
 
 Before exposing any services, it's important to configure a secure firewall.  
 For **Debian-based systems (Debian/Ubuntu)** and **Arch Linux**, we will use **UFW (Uncomplicated Firewall)** because it is simple, reliable, and easy to configure.  
@@ -170,7 +170,7 @@ For **Fedora**, we will use **firewalld**, the default and recommended firewall 
     sudo systemctl enable --now firewalld
 
 
-## 2. Install Ollama on Linux:
+# Install Ollama on Linux:
 
 Installing **Ollama** is very simple and works on most modern Linux distributions, including **Debian, Ubuntu, Arch, and Fedora**.
 
