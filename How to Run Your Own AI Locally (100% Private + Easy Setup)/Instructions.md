@@ -38,7 +38,7 @@ Ollama allows you to run LLMs locally with a simple interface, and Open WebUI pr
 
 ---
 
-## <img width="29" height="33" alt="linux" src="https://github.com/user-attachments/assets/014fd61d-a933-4112-90fa-ea30141fcb44" /> For Linux Users & Home Servers (Proxmox VE)
+## <img width="29" height="33" alt="linux" src="https://github.com/user-attachments/assets/014fd61d-a933-4112-90fa-ea30141fcb44" /> Linux Users & Home Servers (Proxmox VE)
 
 This guide works on **any modern Linux distribution**.
 
@@ -49,7 +49,7 @@ Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fed
 > **Tip:** Make sure your system is fully updated to avoid dependency issues.
 
 ---
-## <img width="29" height="33" alt="windows" src="https://github.com/user-attachments/assets/13a9c536-b927-4759-9a5c-526d24ed4808" /> For Windows Users
+## <img width="29" height="33" alt="windows" src="https://github.com/user-attachments/assets/13a9c536-b927-4759-9a5c-526d24ed4808" /> Windows Users
 
 I recommend installing the **Windows Subsystem for Linux (WSL)**, which allows you to run a full Linux environment directly on Windows.
 
