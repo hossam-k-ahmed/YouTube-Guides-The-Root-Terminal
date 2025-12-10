@@ -125,8 +125,8 @@ For **Fedora**, we will use **firewalld**, the default and recommended firewall 
     sudo ufw status verbose
 
 
-# <img width="500" height="500" alt="arch" src="https://github.com/user-attachments/assets/861319ac-38af-4b4f-badb-3fb1980fcd65" /> Arch Linux (UFW)
-### 1. 1. Update The System.
+# <img width="29" height="33" alt="arch" src="https://github.com/user-attachments/assets/861319ac-38af-4b4f-badb-3fb1980fcd65" /> Arch Linux (UFW)
+### 1. Update The System.
 
     sudo pacman -Syu
 
@@ -150,3 +150,27 @@ For **Fedora**, we will use **firewalld**, the default and recommended firewall 
     sudo ufw enable
     sudo systemctl enable ufw
     sudo ufw status verbose
+
+
+# <img width="29" height="33" alt="fedora" src="https://github.com/user-attachments/assets/497b8709-eb66-4e1f-8a35-7c48cc79d314" /> Fedora (firewalld)
+### 1. Update The System.
+    sudo dnf upgrade --refresh -y
+
+### 2. Enable firewalld.
+    sudo dnf install firewalld -y
+    sudo systemctl enable --now firewalld
+
+### 3. Allow SSH.
+    sudo firewall-cmd --permanent --add-service=ssh
+
+### 4. Allow Ollama API Port (11434).
+    sudo firewall-cmd --permanent --add-port=11434/tcp
+
+### 5. Allow Open WebUI Port (3000).
+    sudo firewall-cmd --permanent --add-port=3000/tcp
+
+### 6. Apply The Changes.
+    sudo firewall-cmd --reload
+    sudo firewall-cmd --list-all
+
+
