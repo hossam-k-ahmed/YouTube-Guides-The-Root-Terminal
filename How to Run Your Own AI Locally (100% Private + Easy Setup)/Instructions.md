@@ -6,7 +6,7 @@ Whether you’re on **Windows**, **Linux**, a **home server with Proxmox VE**, o
 
 ---
 
-We will cover how to **self-host [Open WebUI](https://github.com/open-webui/open-webui)** using [**Ollama**](https://github.com/ollama/ollama) as the LLM runner.
+I will cover how to **self-host [Open WebUI](https://github.com/open-webui/open-webui)** using [**Ollama**](https://github.com/ollama/ollama) as the LLM runner.
 
 Open WebUI is an **extensible, feature-rich, and user-friendly AI platform** designed to operate entirely offline.
 
