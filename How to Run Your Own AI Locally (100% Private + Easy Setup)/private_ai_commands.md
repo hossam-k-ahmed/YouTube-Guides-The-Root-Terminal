@@ -1,7 +1,7 @@
 # RUN YOUR OWN PRIVATE AI
 
 Welcome to your ultimate guide for running a fully private AI on your own computer!  
-Whether you’re on **Windows** or **Linux**, this guide will walk you **step by step** through installing, configuring, and running your AI locally — **100% private, with no cloud dependencies**.  
+Whether you’re on **Windows** or **Linux**, this guide will walk you **step by step** through installing, configuring, and running your AI locally **100% private, with no cloud dependencies**.  
 
 ---
 
