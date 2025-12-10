@@ -40,7 +40,7 @@ This guide works on **any modern Linux distribution**.
 
 Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fedora** and **Arch Linux**.
 
-[**Please proceed to the Firewall Configuration**]()  
+[**Please proceed to the Firewall Configuration**](https://github.com/hossam-k-ahmed/YouTube-Guides-The-Root-Terminal/blob/main/How%20to%20Host%20Your%20AI%20Locally/Instructions.md#firewall-configuration)  
 
 > **Tip:** Make sure your system is fully updated to avoid dependency issues.
 
@@ -207,10 +207,7 @@ You should see a confirmation or API status page, indicating the Ollama API is r
 
 # Install Ollama on macOS:
 
-Installing **Ollama** on macOS is simple and works on **macOS 12 Monterey and later**.  
-You can install Ollama either via the official **.dmg installer** or, if you prefer, using the terminal with the same curl script as Linux.
-
----
+You can install Ollama either via the official **.dmg installer**.
 
 ### Download and Install via .dmg
 
@@ -219,5 +216,5 @@ You can install Ollama either via the official **.dmg installer** or, if you pre
 3. Open the downloaded `.dmg` and drag **Ollama** into your Applications folder.  
 4. Launch Ollama from Applications.
 
-> ⚠️ Important: Always download software from the official website to ensure safety.
+> **⚠️ Important:** Always download software from the official website to ensure safety.
 
