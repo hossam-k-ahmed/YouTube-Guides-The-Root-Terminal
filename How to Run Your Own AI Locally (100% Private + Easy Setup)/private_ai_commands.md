@@ -19,8 +19,6 @@ Whether you’re on **Windows** or **Linux**, this guide will walk you **step by
 ## For Linux Users
 
 You can skip the WSL installation and proceed directly.  
-The commands in this file are ready to set up your **private AI environment** on any modern Linux distribution.  
-
 ---
 
 ## 🪟 For Windows Users
