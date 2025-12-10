@@ -51,7 +51,7 @@ Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fed
 
 Ensure you have **Homebrew** installed for easy dependency management.
 
-[**Please proceed to Installing Ollama on macOS**]()
+[**Please proceed to Installing Ollama on macOS**](Install Ollama on macOS:)
 
 ---
 ## <img width="29" height="33" alt="windows" src="https://github.com/user-attachments/assets/13a9c536-b927-4759-9a5c-526d24ed4808" /> Windows Users
