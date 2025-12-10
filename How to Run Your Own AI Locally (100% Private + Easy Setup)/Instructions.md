@@ -44,8 +44,7 @@ This guide works on **any modern Linux distribution**.
 
 Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fedora** and **Arch Linux**.
 
-**Please proceed to the next section:**  
-[Next-section](#next-section)
+[**Please proceed to the Firewall Configuration:**]()  
 
 > **Tip:** Make sure your system is fully updated to avoid dependency issues.
 
