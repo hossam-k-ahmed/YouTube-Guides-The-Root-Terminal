@@ -16,6 +16,13 @@ Whether you’re on **Windows** or **Linux**, this guide will walk you **step by
 
 ---
 
+## For Linux Users
+
+You can skip the WSL installation and proceed directly.  
+The commands in this file are ready to set up your **private AI environment** on any modern Linux distribution.  
+
+---
+
 ## 🪟 For Windows Users
 
 We recommend installing the **Windows Subsystem for Linux (WSL)**.  
@@ -50,12 +57,14 @@ To install your preferred distribution (e.g., Debian, Ubuntu), run:
 
     wsl --install -d Debian
 
----
 
-## For Linux Users
+<img width="1916" height="965" alt="Screenshot From 2025-12-10 08-42-41" src="https://github.com/user-attachments/assets/a8bd3ff3-7bc9-4b18-b0ed-16ae40de993a" />
 
-You can skip the WSL installation and proceed directly.  
-The commands in this file are ready to set up your **private AI environment** on any modern Linux distribution.  
+
+After this installation, **restart your computer again**.  
+
+Once rebooted, launch the Linux distro from the Start Menu and proceed with the setup.
+
 
 ---
 
