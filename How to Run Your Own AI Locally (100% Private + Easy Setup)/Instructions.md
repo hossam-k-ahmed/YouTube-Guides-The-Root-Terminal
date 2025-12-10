@@ -37,9 +37,14 @@ Ollama allows you to run LLMs locally with a simple interface, and Open WebUI pr
 
 ---
 
-## <img width="29" height="33" alt="linux" src="https://github.com/user-attachments/assets/014fd61d-a933-4112-90fa-ea30141fcb44" /> For Linux Users
+## <img width="29" height="33" alt="linux" src="https://github.com/user-attachments/assets/014fd61d-a933-4112-90fa-ea30141fcb44" /> For Linux Users & Home Servers (Proxmox VE)
 
-You can skip the WSL installation and proceed directly.
+This guide works on **any modern Linux distribution**, including virtual machines hosted on **Proxmox VE**.  
+Compatible systems include popular distros such as **Debian**, **Ubuntu**, **Fedora** and **Arch Linux**.
+➡️ **Please proceed to the next step:**  
+[Continue to Installation Setup](#next-step)
+
+> **Tip:** Make sure your system is fully updated to avoid dependency issues.
 
 ---
 ## <img width="29" height="33" alt="windows" src="https://github.com/user-attachments/assets/13a9c536-b927-4759-9a5c-526d24ed4808" /> For Windows Users
@@ -79,9 +84,8 @@ To install your preferred distribution (e.g., Debian, Ubuntu), run:
 <img width="1916" height="965" alt="Screenshot From 2025-12-10 08-42-41" src="https://github.com/user-attachments/assets/a8bd3ff3-7bc9-4b18-b0ed-16ae40de993a" />
 
 
-After this installation, **restart your computer again**.  
-
-Once rebooted, launch the Linux distro from the Start Menu and proceed with the setup.
+⚠️ Important: After this installation, restart your computer again.
+Once rebooted, launch your Linux distro from the Start Menu to continue setup.
 
 
 ---
