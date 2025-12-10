@@ -32,7 +32,7 @@ Ollama allows you to run LLMs locally with a simple interface, and Open WebUI pr
   
 > **(CPU):** A modern multi-core CPU with at least 4 cores is recommended. Higher clock speeds and multiple cores improve AI performance, especially when running models without a GPU.
   
-> **(RAM):** For a smooth AI experience, i recommend a minimum of 16 GB of RAM for one user. More RAM (32 GB+) allows you to run larger models or multiple processes simultaneously without slowdowns. Less than 16 GB may limit model sizes or performance.
+> **(RAM):** For a smooth AI experience, i recommend a minimum of 16 GB of RAM per user. More RAM (32 GB+) allows you to run larger models or multiple processes simultaneously without slowdowns. Less than 16 GB may limit model sizes or performance.
 
 > **(GPU):** A dedicated GPU is strongly recommended for AI tasks, particularly for model training or running large models. NVIDIA GPUs are the most commonly supported, AMD GPUs can also work with some frameworks. Before proceeding, ensure your GPU drivers are up-to-date by following the official driver guides from your hardware manufacturer. A supported GPU can drastically improve speed and responsiveness.
 
