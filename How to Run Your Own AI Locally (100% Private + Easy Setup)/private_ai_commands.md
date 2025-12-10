@@ -21,7 +21,7 @@ Whether you’re on **Windows** or **Linux**, this guide will walk you **step by
 We recommend installing the **Windows Subsystem for Linux (WSL)**.  
 WSL lets you run a full Linux environment directly on Windows — perfect for AI projects.  
 
-**Open the Command Prompt (cmd) as an Administrator and run:**
+**Open the Command Prompt (cmd) and run:**
 
 
 
@@ -45,6 +45,10 @@ This will display a list of valid Linux distributions you can install with WSL.
 
 <img width="1916" height="965" alt="Screenshot From 2025-12-10 08-32-18" src="https://github.com/user-attachments/assets/0b6a6b16-9ce4-429d-9f00-b27708f5bbc2" />
 
+
+To install your preferred distribution (e.g., Debian, Ubuntu), run:
+
+    wsl --install -d Debian
 
 ---
 
